@@ -2,17 +2,13 @@
 Image classification for CIFAR 10 with TensorFlow
 <br>
 In this notebook I am going to classify images from CIFAR 10 dataset which comprises of Trucks, Airplanes, Cars, Cats and so on.
-The image classifer developed is uses TensorFlow.
+The image classifer developed is using TensorFlow.
 <br>
 ## Architecture of CNN
 The entire model of our conv-net follows conv->conv->pool structure that is every two conv layers are follwed by a pooling layer
-<br>
-The input image fed into the CNN is first fed in to
-<br>
+The input image fed into the CNN is first fed into
 1. Convolution layer comprising of 3x3x3 filters, 16 in number followed by Relu activation.
-<br>
 2. Convolution layer comprising of 3x3x3 filters, 32 in number followed by Relu activation.
-<br>
 3. Max pooling by 2x2 filters with stride 2
     * Dropout Layer
     * Batch normalization layer
