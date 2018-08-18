@@ -24,3 +24,4 @@ The input image fed into the CNN is first fed into
 Loss function used is softmax_loss and Update rule Adam
 
 The test set accuracy is 68%
+Due to hardware constraints I stopped my training after 10 epochs (It took 7hrs to run 10 epochs on my i3 processor with 4Gb of RAM)
